@@ -1,0 +1,970 @@
+{
+    "stone": {
+        "name": "Stone",
+        "color": [
+            120,
+            120,
+            120
+        ],
+        "border_color": [
+            80,
+            80,
+            80
+        ],
+        "max_stack": 64,
+        "place_block": 5
+    },
+    "wood": {
+        "name": "Wood Log",
+        "color": [
+            139,
+            69,
+            19
+        ],
+        "border_color": [
+            100,
+            50,
+            10
+        ],
+        "max_stack": 64,
+        "place_block": 6
+    },
+    "coal": {
+        "name": "Coal",
+        "color": [
+            30,
+            30,
+            30
+        ],
+        "border_color": [
+            0,
+            0,
+            0
+        ],
+        "max_stack": 64,
+        "place_block": 12
+    },
+    "copper_ore": {
+        "name": "Copper Ore",
+        "color": [
+            184,
+            115,
+            51
+        ],
+        "border_color": [
+            120,
+            70,
+            30
+        ],
+        "max_stack": 64,
+        "place_block": 16
+    },
+    "iron_ore": {
+        "name": "Iron Ore",
+        "color": [
+            210,
+            180,
+            160
+        ],
+        "border_color": [
+            100,
+            80,
+            70
+        ],
+        "max_stack": 64,
+        "place_block": 13
+    },
+    "gold_ore": {
+        "name": "Gold Ore",
+        "color": [
+            255,
+            215,
+            0
+        ],
+        "border_color": [
+            150,
+            100,
+            0
+        ],
+        "max_stack": 64,
+        "place_block": 14
+    },
+    "titanium_ore": {
+        "name": "Titanium Ore",
+        "color": [
+            150,
+            150,
+            220
+        ],
+        "border_color": [
+            80,
+            80,
+            150
+        ],
+        "max_stack": 64,
+        "place_block": 15
+    },
+    "ruby": {
+        "name": "Ruby",
+        "color": [
+            220,
+            20,
+            60
+        ],
+        "border_color": [
+            150,
+            0,
+            0
+        ],
+        "max_stack": 64,
+        "place_block": null
+    },
+    "copper_ingot": {
+        "name": "Copper Ingot",
+        "color": [
+            200,
+            130,
+            80
+        ],
+        "border_color": [
+            150,
+            90,
+            40
+        ],
+        "max_stack": 64,
+        "place_block": null
+    },
+    "iron_ingot": {
+        "name": "Iron Ingot",
+        "color": [
+            220,
+            220,
+            220
+        ],
+        "border_color": [
+            150,
+            150,
+            150
+        ],
+        "max_stack": 64,
+        "place_block": null
+    },
+    "gold_ingot": {
+        "name": "Gold Ingot",
+        "color": [
+            255,
+            230,
+            100
+        ],
+        "border_color": [
+            200,
+            150,
+            0
+        ],
+        "max_stack": 64,
+        "place_block": null
+    },
+    "titanium_ingot": {
+        "name": "Titanium Ingot",
+        "color": [
+            200,
+            200,
+            255
+        ],
+        "border_color": [
+            100,
+            100,
+            200
+        ],
+        "max_stack": 64,
+        "place_block": null
+    },
+    "copper_wire": {
+        "name": "Copper Wire",
+        "color": [
+            210,
+            105,
+            30
+        ],
+        "border_color": [
+            139,
+            69,
+            19
+        ],
+        "max_stack": 64,
+        "place_block": null
+    },
+    "gold_plated_wire": {
+        "name": "Gold-Plated Wire",
+        "color": [
+            255,
+            215,
+            0
+        ],
+        "border_color": [
+            210,
+            105,
+            30
+        ],
+        "max_stack": 64,
+        "place_block": null
+    },
+    "workbench": {
+        "name": "Workbench",
+        "color": [
+            160,
+            100,
+            40
+        ],
+        "border_color": [
+            100,
+            60,
+            20
+        ],
+        "max_stack": 64,
+        "place_block": 7
+    },
+    "furnace": {
+        "name": "Furnace",
+        "color": [
+            100,
+            100,
+            100
+        ],
+        "border_color": [
+            50,
+            50,
+            50
+        ],
+        "max_stack": 64,
+        "place_block": 8
+    },
+    "chest": {
+        "name": "Chest",
+        "color": [
+            180,
+            130,
+            50
+        ],
+        "border_color": [
+            120,
+            80,
+            20
+        ],
+        "max_stack": 64,
+        "place_block": 9
+    },
+    "ladder": {
+        "name": "Ladder",
+        "color": [
+            150,
+            110,
+            50
+        ],
+        "border_color": [
+            100,
+            70,
+            30
+        ],
+        "max_stack": 64,
+        "place_block": 10
+    },
+    "rocket_platform": {
+        "name": "Rocket Platform",
+        "color": [
+            100,
+            110,
+            120
+        ],
+        "border_color": [
+            50,
+            60,
+            70
+        ],
+        "max_stack": 1,
+        "place_block": 24
+    },
+    "rocket_turbine": {
+        "name": "Rocket Turbine",
+        "color": [
+            80,
+            80,
+            90
+        ],
+        "border_color": [
+            40,
+            40,
+            50
+        ],
+        "max_stack": 64,
+        "place_block": null
+    },
+    "rocket_body": {
+        "name": "Rocket Body",
+        "color": [
+            200,
+            200,
+            210
+        ],
+        "border_color": [
+            100,
+            100,
+            110
+        ],
+        "max_stack": 64,
+        "place_block": null
+    },
+    "rocket_top": {
+        "name": "Rocket Top",
+        "color": [
+            220,
+            50,
+            50
+        ],
+        "border_color": [
+            150,
+            0,
+            0
+        ],
+        "max_stack": 64,
+        "place_block": null
+    },
+    "rocket": {
+        "name": "Spaceship",
+        "color": [
+            255,
+            255,
+            255
+        ],
+        "border_color": [
+            100,
+            100,
+            100
+        ],
+        "max_stack": 1,
+        "place_block": 26
+    },
+    "iron_pickaxe": {
+        "name": "Iron Pickaxe",
+        "color": [
+            200,
+            200,
+            200
+        ],
+        "border_color": [
+            100,
+            100,
+            100
+        ],
+        "max_stack": 1,
+        "place_block": null,
+        "damage": 3,
+        "tool_color": [
+            220,
+            220,
+            220
+        ]
+    },
+    "gold_pickaxe": {
+        "name": "Gold Pickaxe",
+        "color": [
+            255,
+            230,
+            100
+        ],
+        "border_color": [
+            200,
+            150,
+            0
+        ],
+        "max_stack": 1,
+        "place_block": null,
+        "damage": 5,
+        "tool_color": [
+            255,
+            230,
+            100
+        ]
+    },
+    "titanium_pickaxe": {
+        "name": "Titanium Pickaxe",
+        "color": [
+            200,
+            200,
+            255
+        ],
+        "border_color": [
+            100,
+            100,
+            200
+        ],
+        "max_stack": 1,
+        "place_block": null,
+        "damage": 999,
+        "tool_color": [
+            200,
+            200,
+            255
+        ]
+    },
+    "fishing_rod": {
+        "name": "Fishing Rod",
+        "color": [
+            139,
+            69,
+            19
+        ],
+        "border_color": [
+            50,
+            25,
+            0
+        ],
+        "max_stack": 1,
+        "place_block": null,
+        "tool_color": [
+            139,
+            69,
+            19
+        ]
+    },
+    "iron_sword": {
+        "name": "Iron Sword",
+        "color": [
+            200,
+            200,
+            200
+        ],
+        "border_color": [
+            100,
+            100,
+            100
+        ],
+        "max_stack": 1,
+        "place_block": null,
+        "damage": 5,
+        "tool_color": [
+            220,
+            220,
+            220
+        ]
+    },
+    "gold_sword": {
+        "name": "Gold Sword",
+        "color": [
+            255,
+            230,
+            100
+        ],
+        "border_color": [
+            200,
+            150,
+            0
+        ],
+        "max_stack": 1,
+        "place_block": null,
+        "damage": 8,
+        "tool_color": [
+            255,
+            230,
+            100
+        ]
+    },
+    "titanium_sword": {
+        "name": "Titanium Sword",
+        "color": [
+            200,
+            200,
+            255
+        ],
+        "border_color": [
+            100,
+            100,
+            200
+        ],
+        "max_stack": 1,
+        "place_block": null,
+        "damage": 15,
+        "tool_color": [
+            200,
+            200,
+            255
+        ]
+    },
+    "ruby_sword": {
+        "name": "Ruby Sword",
+        "color": [
+            220,
+            20,
+            60
+        ],
+        "border_color": [
+            150,
+            0,
+            0
+        ],
+        "max_stack": 1,
+        "place_block": null,
+        "damage": 30,
+        "tool_color": [
+            255,
+            50,
+            50
+        ]
+    },
+    "OVERPOWERED_SWORD666": {
+        "name": "OVERPOWERED SWORD 666",
+        "color": [
+            255,
+            255,
+            255
+        ],
+        "border_color": [
+            0,
+            0,
+            0
+        ],
+        "max_stack": 1,
+        "place_block": null,
+        "damage": 666,
+        "tool_color": [
+            255,
+            255,
+            255
+        ]
+    },
+    "iron_helmet": {
+        "name": "Iron Helmet",
+        "color": [
+            200,
+            200,
+            200
+        ],
+        "border_color": [
+            100,
+            100,
+            100
+        ],
+        "max_stack": 1,
+        "place_block": null,
+        "is_helmet": true,
+        "armor_value": 4,
+        "helmet_color": [
+            200,
+            200,
+            200
+        ]
+    },
+    "gold_helmet": {
+        "name": "Gold Helmet",
+        "color": [
+            255,
+            230,
+            100
+        ],
+        "border_color": [
+            200,
+            150,
+            0
+        ],
+        "max_stack": 1,
+        "place_block": null,
+        "is_helmet": true,
+        "armor_value": 6,
+        "helmet_color": [
+            255,
+            230,
+            100
+        ]
+    },
+    "titanium_helmet": {
+        "name": "Titanium Helmet",
+        "color": [
+            200,
+            200,
+            255
+        ],
+        "border_color": [
+            100,
+            100,
+            200
+        ],
+        "max_stack": 1,
+        "place_block": null,
+        "is_helmet": true,
+        "armor_value": 10,
+        "helmet_color": [
+            200,
+            200,
+            255
+        ]
+    },
+    "ruby_helmet": {
+        "name": "Ruby Helmet",
+        "color": [
+            220,
+            20,
+            60
+        ],
+        "border_color": [
+            150,
+            0,
+            0
+        ],
+        "max_stack": 1,
+        "place_block": null,
+        "is_helmet": true,
+        "armor_value": 18,
+        "helmet_color": [
+            220,
+            20,
+            60
+        ]
+    },
+    "raw_fish": {
+        "name": "Raw Fish",
+        "color": [
+            100,
+            150,
+            200
+        ],
+        "border_color": [
+            50,
+            80,
+            120
+        ],
+        "max_stack": 64,
+        "place_block": null,
+        "heal_amount": 2
+    },
+    "fried_fish": {
+        "name": "Fried Fish",
+        "color": [
+            200,
+            100,
+            50
+        ],
+        "border_color": [
+            120,
+            50,
+            20
+        ],
+        "max_stack": 64,
+        "heal_amount": 6
+    },
+    "slimeball": {
+        "name": "Slimeball",
+        "color": [
+            50,
+            200,
+            50
+        ],
+        "border_color": [
+            20,
+            100,
+            20
+        ],
+        "max_stack": 64,
+        "place_block": null
+    },
+    "bat_wing": {
+        "name": "Bat Wing",
+        "color": [
+            40,
+            40,
+            40
+        ],
+        "border_color": [
+            20,
+            20,
+            20
+        ],
+        "max_stack": 64,
+        "place_block": null
+    },
+    "zombie_brain": {
+        "name": "Zombie Brain",
+        "color": [
+            200,
+            50,
+            150
+        ],
+        "border_color": [
+            100,
+            20,
+            70
+        ],
+        "max_stack": 64,
+        "place_block": null,
+        "heal_amount": -1
+    },
+    "bow": {
+        "name": "Bow",
+        "color": [
+            139,
+            69,
+            19
+        ],
+        "border_color": [
+            100,
+            50,
+            10
+        ],
+        "max_stack": 1,
+        "place_block": null,
+        "tool_color": [
+            139,
+            69,
+            19
+        ]
+    },
+    "iron_boots": {
+        "name": "Iron Boots",
+        "color": [
+            210,
+            180,
+            160
+        ],
+        "max_stack": 1,
+        "is_boots": true,
+        "speed_boost": 3.0
+    },
+    "gold_boots": {
+        "name": "Gold Boots",
+        "color": [
+            255,
+            215,
+            0
+        ],
+        "max_stack": 1,
+        "is_boots": true,
+        "speed_boost": 5.0
+    },
+    "titanium_boots": {
+        "name": "Titanium Boots",
+        "color": [
+            150,
+            150,
+            220
+        ],
+        "max_stack": 1,
+        "is_boots": true,
+        "speed_boost": 7.0
+    },
+    "ruby_boots": {
+        "name": "Ruby Boots",
+        "color": [
+            220,
+            20,
+            60
+        ],
+        "max_stack": 1,
+        "is_boots": true,
+        "speed_boost": 10.0
+    },
+    "grappling_hook": {
+        "name": "Grappling Hook",
+        "color": [
+            100,
+            100,
+            100
+        ],
+        "max_stack": 1,
+        "is_hook": true
+    },
+    "magma_clot": {
+        "name": "Magma Clot",
+        "color": [
+            255,
+            100,
+            0
+        ],
+        "border_color": [
+            150,
+            50,
+            0
+        ],
+        "max_stack": 64,
+        "place_block": null
+    },
+    "lava_fishing_rod": {
+        "name": "Lava Fishing Rod",
+        "color": [
+            255,
+            50,
+            0
+        ],
+        "border_color": [
+            150,
+            20,
+            0
+        ],
+        "max_stack": 1,
+        "place_block": null,
+        "tool_color": [
+            255,
+            50,
+            0
+        ]
+    },
+    "lavacalibur": {
+        "name": "Lava-calibur",
+        "color": [
+            255,
+            140,
+            0
+        ],
+        "border_color": [
+            200,
+            50,
+            0
+        ],
+        "max_stack": 1,
+        "place_block": null,
+        "damage": 50,
+        "tool_color": [
+            255,
+            140,
+            0
+        ]
+    },
+    "suspicious_slime": {
+        "name": "Suspicious Slime",
+        "color": [
+            50,
+            150,
+            255
+        ],
+        "border_color": [
+            20,
+            80,
+            200
+        ],
+        "max_stack": 1,
+        "place_block": null,
+        "is_pet": true
+    },
+    "magnum_opus": {
+        "name": "Magnum Opus",
+        "color": [
+            200,
+            50,
+            255
+        ],
+        "border_color": [
+            100,
+            20,
+            150
+        ],
+        "max_stack": 64,
+        "place_block": null
+    },
+    "brewing_stand": {
+        "name": "Brewing Stand",
+        "color": [
+            200,
+            150,
+            50
+        ],
+        "border_color": [
+            150,
+            100,
+            30
+        ],
+        "max_stack": 64,
+        "place_block": 29
+    },
+    "potion_strength": {
+        "name": "Strength Potion",
+        "color": [
+            255,
+            50,
+            50
+        ],
+        "border_color": [
+            150,
+            20,
+            20
+        ],
+        "max_stack": 16,
+        "place_block": null,
+        "potion_type": "strength"
+    },
+    "potion_fire_res": {
+        "name": "Fire Res Potion",
+        "color": [
+            255,
+            150,
+            0
+        ],
+        "border_color": [
+            180,
+            80,
+            0
+        ],
+        "max_stack": 16,
+        "place_block": null,
+        "potion_type": "fire_res"
+    },
+    "potion_jump": {
+        "name": "Jump Potion",
+        "color": [
+            50,
+            255,
+            50
+        ],
+        "border_color": [
+            20,
+            150,
+            20
+        ],
+        "max_stack": 16,
+        "place_block": null,
+        "potion_type": "jump"
+    },
+    "wooden_platform": {
+        "name": "Wooden Platform",
+        "color": [
+            160,
+            100,
+            50
+        ],
+        "border_color": [
+            100,
+            60,
+            20
+        ],
+        "max_stack": 99,
+        "place_block": 31
+    },
+    "abyssal_sigil": {
+        "name": "Abyssal Sigil",
+        "color": [
+            50,
+            10,
+            70
+        ],
+        "border_color": [
+            100,
+            20,
+            150
+        ],
+        "max_stack": 1,
+        "place_block": null,
+        "spawn_boss": "abyssal_behemoth"
+    },
+    "quantum_engine": {
+        "name": "Quantum Engine",
+        "color": [
+            10,
+            200,
+            250
+        ],
+        "border_color": [
+            255,
+            255,
+            255
+        ],
+        "max_stack": 64,
+        "place_block": null
+    }
+}
