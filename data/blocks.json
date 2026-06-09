@@ -1,0 +1,568 @@
+{
+    "0": {
+        "solid": false,
+        "breakable": false,
+        "max_health": 0,
+        "broken_becomes": 0,
+        "drops": [],
+        "draw": null,
+        "is_work_block": false
+    },
+    "1": {
+        "solid": true,
+        "breakable": true,
+        "max_health": 2,
+        "broken_becomes": 0,
+        "drops": [
+            "dirt"
+        ],
+        "draw": {
+            "color": [
+                120,
+                70,
+                30
+            ],
+            "border": [
+                80,
+                50,
+                20
+            ],
+            "border_width": 1
+        },
+        "is_work_block": false
+    },
+    "2": {
+        "solid": true,
+        "breakable": true,
+        "max_health": 2,
+        "broken_becomes": 0,
+        "drops": [
+            "dirt"
+        ],
+        "draw": {
+            "color": [
+                50,
+                180,
+                50
+            ],
+            "border": [
+                30,
+                120,
+                30
+            ],
+            "border_width": 1
+        },
+        "is_work_block": false
+    },
+    "3": {
+        "solid": true,
+        "breakable": false,
+        "max_health": 0,
+        "broken_becomes": 0,
+        "drops": [],
+        "draw": {
+            "color": [
+                150,
+                100,
+                50
+            ],
+            "border": [
+                100,
+                60,
+                30
+            ],
+            "border_width": 2
+        },
+        "is_work_block": false
+    },
+    "4": {
+        "solid": false,
+        "breakable": false,
+        "max_health": 0,
+        "broken_becomes": 4,
+        "drops": [],
+        "draw": null,
+        "is_work_block": false
+    },
+    "5": {
+        "solid": true,
+        "breakable": true,
+        "max_health": 4,
+        "broken_becomes": 4,
+        "drops": [
+            "stone"
+        ],
+        "draw": {
+            "color": [
+                120,
+                120,
+                120
+            ],
+            "border": [
+                80,
+                80,
+                80
+            ],
+            "border_width": 1
+        },
+        "is_work_block": false
+    },
+    "6": {
+        "solid": false,
+        "breakable": true,
+        "max_health": 3,
+        "broken_becomes": 0,
+        "drops": [
+            "wood"
+        ],
+        "draw": {
+            "color": [
+                139,
+                69,
+                19
+            ],
+            "border": [
+                100,
+                50,
+                10
+            ],
+            "border_width": 1
+        },
+        "is_work_block": false
+    },
+    "7": {
+        "solid": false,
+        "breakable": true,
+        "max_health": 3,
+        "broken_becomes": 0,
+        "drops": [
+            "workbench"
+        ],
+        "draw": {
+            "color": [
+                160,
+                100,
+                40
+            ],
+            "border": [
+                100,
+                60,
+                20
+            ],
+            "border_width": 2
+        },
+        "is_work_block": true
+    },
+    "8": {
+        "solid": false,
+        "breakable": true,
+        "max_health": 4,
+        "broken_becomes": 0,
+        "drops": [
+            "furnace"
+        ],
+        "draw": {
+            "color": [
+                100,
+                100,
+                100
+            ],
+            "border": [
+                50,
+                50,
+                50
+            ],
+            "border_width": 2
+        },
+        "is_work_block": true
+    },
+    "9": {
+        "solid": false,
+        "breakable": true,
+        "max_health": 3,
+        "broken_becomes": 0,
+        "drops": [
+            "chest"
+        ],
+        "draw": {
+            "color": [
+                180,
+                130,
+                50
+            ],
+            "border": [
+                120,
+                80,
+                20
+            ],
+            "border_width": 2
+        },
+        "is_work_block": true
+    },
+    "10": {
+        "solid": false,
+        "breakable": true,
+        "max_health": 1,
+        "broken_becomes": 4,
+        "drops": [
+            "ladder"
+        ],
+        "draw": {
+            "color": null,
+            "border": null
+        },
+        "is_work_block": false
+    },
+    "11": {
+        "solid": false,
+        "breakable": true,
+        "max_health": 2,
+        "broken_becomes": 0,
+        "drops": [],
+        "draw": {
+            "color": [
+                139,
+                69,
+                19
+            ],
+            "border": [
+                100,
+                50,
+                10
+            ],
+            "border_width": 2
+        },
+        "is_work_block": false
+    },
+    "12": {
+        "solid": true,
+        "breakable": true,
+        "max_health": 5,
+        "broken_becomes": 4,
+        "drops": [
+            "coal"
+        ],
+        "draw": {
+            "color": [
+                64,
+                64,
+                64
+            ],
+            "border": [
+                30,
+                30,
+                30
+            ],
+            "border_width": 1
+        },
+        "is_work_block": false
+    },
+    "16": {
+        "solid": true,
+        "breakable": true,
+        "max_health": 5,
+        "broken_becomes": 4,
+        "drops": [
+            "copper_ore"
+        ],
+        "draw": {
+            "color": [
+                184,
+                115,
+                51
+            ],
+            "border": [
+                120,
+                70,
+                30
+            ],
+            "border_width": 1
+        },
+        "is_work_block": false
+    },
+    "13": {
+        "solid": true,
+        "breakable": true,
+        "max_health": 6,
+        "broken_becomes": 4,
+        "drops": [
+            "iron_ore"
+        ],
+        "draw": {
+            "color": [
+                210,
+                180,
+                160
+            ],
+            "border": [
+                100,
+                80,
+                70
+            ],
+            "border_width": 1
+        },
+        "is_work_block": false
+    },
+    "14": {
+        "solid": true,
+        "breakable": true,
+        "max_health": 6,
+        "broken_becomes": 4,
+        "drops": [
+            "gold_ore"
+        ],
+        "draw": {
+            "color": [
+                255,
+                215,
+                0
+            ],
+            "border": [
+                150,
+                100,
+                0
+            ],
+            "border_width": 1
+        },
+        "is_work_block": false
+    },
+    "15": {
+        "solid": true,
+        "breakable": true,
+        "max_health": 8,
+        "broken_becomes": 4,
+        "drops": [
+            "titanium_ore"
+        ],
+        "draw": {
+            "color": [
+                150,
+                150,
+                220
+            ],
+            "border": [
+                80,
+                80,
+                150
+            ],
+            "border_width": 1
+        },
+        "is_work_block": false
+    },
+    "20": {
+        "solid": true,
+        "breakable": false,
+        "max_health": 0,
+        "broken_becomes": 0,
+        "drops": [],
+        "draw": {
+            "color": [
+                77,
+                77,
+                77
+            ],
+            "border": [
+                40,
+                40,
+                40
+            ],
+            "border_width": 2
+        },
+        "is_work_block": false
+    },
+    "21": {
+        "solid": false,
+        "breakable": false,
+        "max_health": 0,
+        "broken_becomes": 21,
+        "drops": [],
+        "draw": {
+            "color": [
+                50,
+                150,
+                255
+            ],
+            "border": null
+        },
+        "is_work_block": false
+    },
+    "22": {
+        "solid": true,
+        "breakable": false,
+        "max_health": 0,
+        "broken_becomes": 22,
+        "drops": [],
+        "draw": {
+            "color": [
+                90,
+                50,
+                20
+            ],
+            "border": [
+                60,
+                30,
+                10
+            ],
+            "border_width": 1
+        },
+        "is_work_block": false
+    },
+    "23": {
+        "solid": true,
+        "breakable": true,
+        "max_health": 15,
+        "broken_becomes": 0,
+        "drops": [],
+        "draw": {
+            "color": [
+                80,
+                85,
+                90
+            ],
+            "border": [
+                50,
+                55,
+                60
+            ],
+            "border_width": 2
+        },
+        "is_work_block": false
+    },
+    "24": {
+        "solid": true,
+        "breakable": true,
+        "max_health": 15,
+        "broken_becomes": 0,
+        "drops": [
+            "rocket_platform"
+        ],
+        "draw": {
+            "color": [
+                90,
+                95,
+                100
+            ],
+            "border": [
+                50,
+                55,
+                60
+            ],
+            "border_width": 2
+        },
+        "is_work_block": false
+    },
+    "25": {
+        "solid": true,
+        "breakable": true,
+        "max_health": 15,
+        "broken_becomes": 0,
+        "drops": [],
+        "draw": {
+            "color": [
+                80,
+                85,
+                90
+            ],
+            "border": [
+                50,
+                55,
+                60
+            ],
+            "border_width": 2
+        },
+        "is_work_block": false
+    },
+    "26": {
+        "solid": false,
+        "breakable": true,
+        "max_health": 20,
+        "broken_becomes": 0,
+        "drops": [
+            "rocket"
+        ],
+        "draw": null,
+        "is_work_block": false
+    },
+    "27": {
+        "solid": false,
+        "breakable": true,
+        "max_health": 20,
+        "broken_becomes": 0,
+        "drops": [],
+        "draw": null,
+        "is_work_block": false
+    },
+    "28": {
+        "solid": false,
+        "breakable": false,
+        "max_health": 0,
+        "broken_becomes": 28,
+        "drops": [],
+        "draw": {
+            "color": [
+                240,
+                80,
+                20
+            ],
+            "border": null
+        },
+        "is_work_block": false
+    },
+    "29": {
+        "solid": false,
+        "breakable": true,
+        "max_health": 3,
+        "broken_becomes": 0,
+        "drops": [
+            "brewing_stand"
+        ],
+        "draw": {
+            "color": [
+                200,
+                150,
+                50
+            ],
+            "border": [
+                150,
+                100,
+                30
+            ],
+            "border_width": 2
+        },
+        "is_work_block": true
+    },
+    "30": {
+        "solid": false,
+        "breakable": true,
+        "max_health": 8,
+        "broken_becomes": 0,
+        "drops": [
+            "chest"
+        ],
+        "draw": null,
+        "is_work_block": true
+    },
+    "31": {
+        "solid": false,
+        "breakable": true,
+        "max_health": 1,
+        "broken_becomes": 0,
+        "drops": [
+            "wooden_platform"
+        ],
+        "draw": {
+            "color": [
+                160,
+                100,
+                50
+            ],
+            "border": [
+                100,
+                60,
+                20
+            ],
+            "border_width": 1
+        },
+        "is_work_block": false
+    }
+}
