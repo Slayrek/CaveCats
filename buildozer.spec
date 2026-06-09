@@ -29,7 +29,7 @@ version = 1.1.0
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3.11, cython>=3.0.0, pygame==2.5.2
+requirements = python3==3.10.12, cython==3.0.11, pygame
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = landscape
